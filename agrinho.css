@@ -1,47 +1,56 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educação nas Escolas Públicas</title>
-</head>
-<body>
-    <header>
-        <h1>Educação nas Escolas Públicas</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#desafios">Desafios</a></li>
-                <li><a href="#solucoes">Soluções</a></li>
-                <li><a href="#conclusao">Conclusão</a></li>
-                <img src="sala-de-aula-escola-ensino-medio-1676990823835_v2_900x506.jpg">
-                <link rel="stylesheet" href="agrinho.css">
-            </ul>
-        </nav>
-    </header>
+/* Estilos básicos */
 
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Neste trabalho, vamos discutir a importância da educação nas escolas públicas e seus impactos na sociedade.</p>
-    </section>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    <section id="desafios">
-        <h2>Desafios</h2>
-        <p>As escolas públicas enfrentam diversos desafios, como falta de recursos financeiros, infraestrutura precária e falta de qualificação dos professores.</p>
-    </section>
+header {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Branco */
+    padding: 20px;
+}
 
-    <section id="solucoes">
-        <h2>Soluções</h2>
-        <p>Para superar esses desafios, é necessário investir mais na educação pública, fornecer treinamento adequado para os professores e melhorar a infraestrutura das escolas.</p>
-    </section>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-    <section id="conclusao">
-        <h2>Conclusão</h2>
-        <p>A educação nas escolas públicas é fundamental para o desenvolvimento de uma sociedade justa e igualitária. Devemos trabalhar juntos para garantir que todas as crianças tenham acesso a uma educação de qualidade.</p>
-    </section>
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
-    <footer>
-        <p>&copy; 2024 Educação Pública. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f8f9fa; /* Cinza claro */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos para as seções */
+
+#sobre {
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+#desafios {
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+#solucoes {
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+#conclusao {
+    background-color: #f0f8ff; /* Azul claro */
+}
